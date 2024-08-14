@@ -11,11 +11,12 @@
   }
   
   .modal-content {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.083);
     padding: 20px;
     border-radius: 8px;
     width: 400px;
     max-width: 90%;
+    overflow-y: auto;
   }
   
   .modal-content input,

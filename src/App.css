@@ -32,7 +32,9 @@
   border-radius: 8px;
   width: 80%;
   max-width: 600px;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.016);
+  max-height: 90vh; 
+  overflow-y: auto;
 }
 
 .close {
@@ -65,4 +67,43 @@
 
 .add-task-button:hover {
   background-color: #333; 
+}
+
+
+.image-upload-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+}
+
+.image-container img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.close-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: red;
+  color: white;
+  border: none;
+  padding: 2px 5px;
+  cursor: pointer;
+  font-size: 12px;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
