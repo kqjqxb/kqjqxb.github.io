@@ -1,9 +1,8 @@
 {
   "name": "renesandro-ai_test_ex",
   "version": "0.1.0",
-  "homepage": "https://kqjqxb.github.io/",
   "private": true,
-  "homepage": "https://kqjqxb.github.io/renesandro-ai_test_ex/",
+  "homepage": "https://kqjqxb.github.io/",
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.6.0",
     "@fortawesome/react-fontawesome": "^0.2.2",
